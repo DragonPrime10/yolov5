@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Cats']
+
+roboflow:
+  workspace: ravensburgweingarten
+  project: dog_cat-test
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/ravensburgweingarten/dog_cat-test/dataset/1

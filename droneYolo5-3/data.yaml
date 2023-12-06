@@ -1,0 +1,12 @@
+names:
+- Drones
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: droneyolo5
+  url: https://universe.roboflow.com/cranfieldyolo1/droneyolo5/dataset/3
+  version: 3
+  workspace: cranfieldyolo1
+test: ../test/images
+train: droneYolo5-3/train/images
+val: droneYolo5-3/valid/images

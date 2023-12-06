@@ -1,0 +1,14 @@
+train: 
+- droneYolo5-3/train/images
+- /Users/karsonyounger/yolov5/person.v1i.yolov5pytorch/train
+- /Users/karsonyounger/yolov5/cat/train
+- /Users/karsonyounger/yolov5/dogs.v1i.yolov5pytorch/train
+- /Users/karsonyounger/yolov5/Pikachu/train
+val: 
+- droneYolo5-3/valid/images
+- /Users/karsonyounger/yolov5/person.v1i.yolov5pytorch/valid
+- /Users/karsonyounger/yolov5/cat/valid
+- /Users/karsonyounger/yolov5/dogs.v1i.yolov5pytorch/valid
+- /Users/karsonyounger/yolov5/Pikachu/valid
+nc: 5
+names: ['Drone', 'Human', 'Cat', 'Dog','Pikachu']

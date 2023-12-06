@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Person dataset - v4 2023-11-20 12-47pm']
+
+roboflow:
+  workspace: oklahoma-state-university-rcgwk
+  project: person-469rx
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/oklahoma-state-university-rcgwk/person-469rx/dataset/1

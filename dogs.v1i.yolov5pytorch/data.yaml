@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['dogs']
+
+roboflow:
+  workspace: yolov5tforcat
+  project: dogs-rlaso
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/yolov5tforcat/dogs-rlaso/dataset/1
