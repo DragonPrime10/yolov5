@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('setup'){
             steps {
-                sh(script: 'pip install requirements.txt)
+                sh(script: 'pip install requirements.txt')
             }
         }
         stage('testing'){
