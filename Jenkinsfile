@@ -8,7 +8,7 @@ pipeline {
         }
         stage('testing'){
             steps {
-                sh(script: 'python detect.py --weights ./runs/train/exp9/weights/best.pt --source ./Pikachu.jpg')
+                sh(script: 'python detect.py --weights ./best.pt --source ./Pikachu.jpg')
             }
         }
     }
