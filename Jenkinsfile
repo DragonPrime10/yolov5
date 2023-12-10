@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('testing'){
             steps {
-                sh(script: 'python detect.py --weights ./best.pt --source ./Pikachu.jpg')
+                sh(script: 'python3 detect.py --weights ./best.pt --source ./Pikachu.jpg')
             }
         }
     }
